@@ -1,0 +1,44 @@
+//variables
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+$font_Roboto_Condensed: 'Roboto Condensed',
+sans-serif;
+$font_Pacifico: 'Pacifico',
+cursive;
+
+$red : #d72323;
+
+//resets
+
+
+.navbar{
+    box-shadow: none !important;
+}
+
+ .title {
+
+     text-align: center;
+     font-family: $font_Pacifico;
+
+     span {
+         border-bottom: 2px solid red;
+
+     }
+
+ }
+
+.btn-more_info{
+    background: #000000;
+    color: #f5eded;
+
+}
+
+
+
+@import 'home';
