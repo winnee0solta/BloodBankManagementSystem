@@ -49,6 +49,7 @@ class HomeController extends Controller
             'contact' => 'required',
             'address' => 'required',
             'age' => 'required',
+            'blood_group' => 'required',
             'gender' => 'required',
         ]);
 
@@ -61,6 +62,7 @@ class HomeController extends Controller
         $profile->contact = $request->contact;
         $profile->address = $request->address;
         $profile->age = $request->age;
+        $profile->blood_group = $request->age;
         $profile->gender = $request->gender;
 
         //for image
@@ -145,20 +147,29 @@ class HomeController extends Controller
 
         return view('site.request-for-blood', compact('blood_quantities'));
     }
+
     public function requestForBlood(Request $request)
     {
         $this->validate($request, [
             'blood_group' => 'required',
             'volume' => 'required',
+            'reason' => 'required',
         ]);
 
         $blood_request = new   Bloodrequests();
         $blood_request->user_id = Auth::user()->id;
         $blood_request->blood_group = $request->blood_group;
         $blood_request->volume =  $request->volume;
+        $blood_request->reason =  $request->reason;
         $blood_request->save();
 
-        return redirect('/');
+        return redirect('/request-for-blood/success');
+    }
+
+    public function requestSuccessView()
+    {
+
+        return view('site.request-for-blood-success');
     }
 
 

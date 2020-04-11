@@ -28,6 +28,7 @@ class DonorsController extends Controller
                     'name' => $public_info->name,
                     'contact' => $public_info->contact,
                     'age' => $public_info->age,
+                    'blood_group' => $public_info->blood_group,
                     'gender' => $public_info->gender,
                     'address' => $public_info->address,
                 ));

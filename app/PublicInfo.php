@@ -12,6 +12,7 @@ class PublicInfo extends Model
         'name',
         'contact',
         'age',
+        'blood_group',
         'gender',
          'address',
     ];

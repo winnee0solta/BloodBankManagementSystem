@@ -116,6 +116,7 @@ class AuthController extends Controller
             'contact' => 'required',
             'age' => 'required',
             'gender' => 'required',
+            'blood_group' => 'required',
             'email' => 'required',
             'password' => 'required'
         ]);
@@ -138,6 +139,7 @@ class AuthController extends Controller
             'name' => $request->name,
             'contact' => $request->contact,
             'age' => $request->age,
+            'blood_group' => $request->blood_group,
             'gender' => $request->gender,
             'gender' => $request->gender,
             'address' => '-',

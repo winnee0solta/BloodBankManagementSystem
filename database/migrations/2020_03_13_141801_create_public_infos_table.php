@@ -20,6 +20,7 @@ class CreatePublicInfosTable extends Migration
             $table->string('name');
             $table->string('contact');
             $table->string('age');
+            $table->string('blood_group');
             $table->string('gender');
             $table->string('address');
             $table->timestamps();

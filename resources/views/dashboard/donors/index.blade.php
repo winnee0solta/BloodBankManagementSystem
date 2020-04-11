@@ -24,6 +24,7 @@
                         <th scope="col">Name</th>
                         <th scope="col">Gender</th>
                         <th scope="col">Age</th>
+                        <th scope="col">Blood Group</th>
                         <th scope="col">Address</th>
                         <th scope="col">Contact</th>
                         <th scope="col">Email</th>
@@ -50,6 +51,8 @@
                         <td>{{$item['name']}}</td>
                         <td>{{$item['gender']}}</td>
                         <td>{{$item['age']}}</td>
+                        <td>{{$item['blood_group']}}</td>
+                        <td>{{$item['address']}}</td>
                         <td>{{$item['address']}}</td>
                         <td>{{$item['contact']}}</td>
                         <td>{{$item['email']}}</td>

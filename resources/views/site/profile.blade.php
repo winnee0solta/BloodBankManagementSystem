@@ -36,6 +36,12 @@
                         </a>
                         <a class="list-group-item">
                             <div class="bmd-list-group-col">
+                                <p class="list-group-item-heading">Blood Group</p>
+                                <p class="list-group-item-text">{{$profile->blood_group}}</p>
+                            </div>
+                        </a>
+                        <a class="list-group-item">
+                            <div class="bmd-list-group-col">
                                 <p class="list-group-item-heading">Email</p>
                                 <p class="list-group-item-text">{{$user->email}}</p>
                             </div>
@@ -151,6 +157,20 @@
                         <input name="age" required type="number" class="form-control" id="age"
                             value="{{$profile->age}}">
                     </div>
+                    <div class="form-field pt-2">
+                        <label for="blood_group" class="bmd-label-floating">Blood Group</label>
+                        <select name="blood_group" class="form-control" id="blood_group">
+                            <option value="A+" checked> A+</option>
+                            <option value="A-"> A-</option>
+                            <option value="B+"> B+</option>
+                            <option value="B-"> B-</option>
+                            <option value="AB+"> AB+</option>
+                            <option value="AB-"> AB-</option>
+                            <option value="O+"> O+</option>
+                            <option value="O-"> O-</option>
+                        </select>
+                    </div>
+
                     <div class=" ">
                         <div>
                             <label class="bmd-label-floating">Gender</label>

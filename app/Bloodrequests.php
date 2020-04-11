@@ -10,5 +10,6 @@ class Bloodrequests extends Model
         'user_id',
         'blood_group',
         'volume',
+        'reason',
     ];
 }

@@ -64,10 +64,21 @@
                                 <input name="contact_no" required type="text" class="form-control" id="contact_no">
                             </div>
 
-                            <div class="form-group">
+
+                            <div class="form-field pt-2">
                                 <label for="blood_group" class="bmd-label-floating">Blood Group</label>
-                                <input name="blood_group" required type="text" class="form-control" id="blood_group">
+                                <select name="blood_group" class="form-control" id="blood_group">
+                                    <option value="A+" checked> A+</option>
+                                    <option value="A-"> A-</option>
+                                    <option value="B+"> B+</option>
+                                    <option value="B-"> B-</option>
+                                    <option value="AB+"> AB+</option>
+                                    <option value="AB-"> AB-</option>
+                                    <option value="O+"> O+</option>
+                                    <option value="O-"> O-</option>
+                                </select>
                             </div>
+
 
                             <div class="form-group">
                                 <label for="volume" class="bmd-label-floating">Volume (ml)</label>
@@ -103,9 +114,18 @@
                                 <input name="email" required type="email" class="form-control" id="email">
                             </div>
 
-                            <div class="form-group">
+                           <div class="form-field pt-2">
                                 <label for="blood_group" class="bmd-label-floating">Blood Group</label>
-                                <input name="blood_group" required type="text" class="form-control" id="blood_group">
+                                <select name="blood_group" class="form-control" id="blood_group">
+                                    <option value="A+" checked> A+</option>
+                                    <option value="A-"> A-</option>
+                                    <option value="B+"> B+</option>
+                                    <option value="B-"> B-</option>
+                                    <option value="AB+"> AB+</option>
+                                    <option value="AB-"> AB-</option>
+                                    <option value="O+"> O+</option>
+                                    <option value="O-"> O-</option>
+                                </select>
                             </div>
 
                             <div class="form-group">

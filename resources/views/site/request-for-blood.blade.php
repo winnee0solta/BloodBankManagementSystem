@@ -30,8 +30,11 @@
                                 <td>{{$item['group']}}</td>
                                 <td>{{$item['volume']}}</td>
                                 <td>
+
                                     <button class="btn btn-dark active" data-toggle="modal"
-                                        data-target="#{{$item['group']}}Modal">Request For Blood</button>
+                                        data-target="#{{$item['group']}}Modal">Request For
+                                        Blood</button>
+
                                 </td>
                             </tr>
                             @endforeach
@@ -69,15 +72,20 @@
 
                     <div class="form-group">
                         <label for="blood_group" class="bmd-label-floating">Group</label>
-                    <input name="blood_group" required type="text" class="form-control" id="blood_group" value="{{$item['group']}}" readonly>
+                        <input name="blood_group" required type="text" class="form-control" id="blood_group"
+                            value="{{$item['group']}}" readonly>
                     </div>
 
                     <div class="form-group">
                         <label for="volume" class="bmd-label-floating">Volume (ml)</label>
                         <input name="volume" required type="number" class="form-control" id="volume">
                     </div>
+                    <div class="form-group">
+                        <label for="reason" class="bmd-label-floating">Reason for request</label>
+                        <textarea name="reason" required type="text" class="form-control" id="reason"></textarea>
+                    </div>
 
-                    <button type="submit" class="btn btn-primary btn-raised mt-4">Add Record</button>
+                    <button type="submit" class="btn btn-primary btn-raised mt-4">Send Request</button>
                 </form>
 
             </div>

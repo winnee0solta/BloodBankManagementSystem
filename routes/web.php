@@ -81,7 +81,8 @@ Route::get('/public-events', 'Site\HomeController@eventsView');
 Route::get('/public-events/{event_id}', 'Site\HomeController@singleEventView');
 
 Route::get('/request-for-blood', 'Site\HomeController@requestForBloodView');
-Route::post('/request-for-blood', 'Site\HomeController@requestForBlood');
+Route::post('/request-for-blood', 'Site\HomeController@requestForBlood')->middleware('auth');
+Route::get('/request-for-blood/success', 'Site\HomeController@requestSuccessView');
 
 
 
