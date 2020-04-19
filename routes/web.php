@@ -54,7 +54,6 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/profile', 'Dashboard\ProfileController@index');
     Route::get('/profile/edit', 'Dashboard\ProfileController@edit');
     Route::post('/profile/edit', 'Dashboard\ProfileController@editPost');
-
 });
 
 /*

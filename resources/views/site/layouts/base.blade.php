@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Blood Bank</title>
+    <title>Subba Blood Bank</title>
 
     <!-- Material Design for Bootstrap fonts and icons -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
@@ -31,7 +31,7 @@
 
     <div class="welcome-message-container  text-white  ">
         <span class="h5">
-            Welcome To Blood Bank
+            Welcome To Subba Blood Bank
         </span>
         <div class="social-icons">
             <a href="" class="text-white">
@@ -95,7 +95,7 @@
 
     {{-- footer  --}}
     <div class="footer-container text-center mt-5">
-        Copyright © 2020 Blood Bank
+        Copyright © 2020 Subba Blood Bank
     </div>
     {{--!ends footer  --}}
 

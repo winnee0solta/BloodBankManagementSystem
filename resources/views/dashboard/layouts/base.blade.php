@@ -25,7 +25,7 @@
         </header>
         <div id="dw-s1" class="bmd-layout-drawer bg-danger  bg-faded">
             <header>
-                <a class="navbar-brand text-black font-weight-bold">Blood Bank</a>
+                <a class="navbar-brand text-black font-weight-bold">Subba Blood Bank</a>
             </header>
             <ul class="list-group">
                 <a href="/dashboard" class="list-group-item text-white">Dashboard</a>
