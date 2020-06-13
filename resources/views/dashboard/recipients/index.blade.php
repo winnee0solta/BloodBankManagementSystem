@@ -100,7 +100,17 @@
 
                     <div class="form-group">
                         <label for="blood_group" class="bmd-label-floating">Blood Group</label>
-                        <input name="blood_group" required type="text" class="form-control" id="blood_group">
+                        {{-- <input name="blood_group" required type="text" class="form-control" id="blood_group">  --}}
+                     <select name="blood_group" required class="form-control" id="blood_group">
+                        <option value="A+" checked> A+</option>
+                        <option value="A-"> A-</option>
+                        <option value="B+"> B+</option>
+                        <option value="B-"> B-</option>
+                        <option value="AB+"> AB+</option>
+                        <option value="AB-"> AB-</option>
+                        <option value="O+"> O+</option>
+                        <option value="O-"> O-</option>
+                    </select>
                     </div>
 
                     <div class="form-group">

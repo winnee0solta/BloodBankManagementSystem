@@ -23,6 +23,7 @@
                         <th scope="col">Requested At</th>
                         <th scope="col">Blood Group</th>
                         <th scope="col">Volume (ml)</th>
+                        <th scope="col">Reason</th>
                         <th scope="col">Name</th>
                         <th scope="col">Gender</th>
                         <th scope="col">Age</th>
@@ -44,6 +45,7 @@
                         <td>{{  date( "m/d/Y", strtotime($item['created_at']))  }}</td>
                         <td>{{$item['blood_group']}}</td>
                         <td>{{$item['volume']}}</td>
+                        <td>{{$item['reason']}}</td>
                         <td>{{$item['name']}}</td>
                         <td>{{$item['gender']}}</td>
                         <td>{{$item['age']}}</td>

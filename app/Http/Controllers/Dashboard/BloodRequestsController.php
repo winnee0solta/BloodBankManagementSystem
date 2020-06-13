@@ -30,6 +30,7 @@ class BloodRequestsController extends Controller
                         'user_id' => $blood_request->user_id,
                         'email' => $user->email,
                         'blood_group' => $blood_request->blood_group,
+                        'reason' => $blood_request->reason,
                         'volume' => $blood_request->volume,
                         'name' => $publicinfo->name,
                         'contact' => $publicinfo->contact,

@@ -18,7 +18,7 @@ class CreateBloodrequestsTable extends Migration
             $table->bigInteger('user_id');
             $table->string('blood_group');
             $table->integer('volume');
-            $table->integer('reason');
+            $table->longText('reason');
             $table->timestamps();
         });
     }
